@@ -7,7 +7,7 @@ block content
             <div>
             {
                 names.map(function(name){
-                    return <div>Hello, {name}!</div>
+                    return <div key={name}>Hello, {name}!</div>
                 })
             }
             </div>,
